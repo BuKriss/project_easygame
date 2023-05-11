@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASSE_API_KEY,
-    authDomain: "easygame-8a3c6.firebaseapp.com",
-    databaseURL: "https://easygame-8a3c6-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "easygame-8a3c6",
-    storageBucket: "easygame-8a3c6.appspot.com",
-    messagingSenderId: "316067950519",
-    appId: "1:316067950519:web:b35f278dcbbe3f23b6c232"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
   };
 
 const app = initializeApp(firebaseConfig);
