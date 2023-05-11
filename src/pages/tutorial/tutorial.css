@@ -1,0 +1,20 @@
+.tutorial__container {
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+    ;
+}
+
+.tutorial-videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.tutorial-video__title {
+    text-align: center;
+    margin-top: 1rem;
+}
